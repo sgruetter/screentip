@@ -5,15 +5,15 @@ Personal taste over films and series: which **Title**s are liked, disliked, or *
 ## Language
 
 **Title**:
-A **Film** or a **Series**, identified by name. It is the thing liked, disliked, **Ignored**, asked about, or recommended.
-_Avoid_: watchable, work, entry, item
+A complete **Film** or a complete **Series**, identified by name. It is the thing liked, disliked, **Ignored**, asked about, or recommended. A season or episode is not a **Title**.
+_Avoid_: watchable, work, entry, item, season, episode
 
 **Film**:
-A **Title** released as a movie.
+A **Title** released as a movie. Each film in a franchise is its own **Title**.
 _Avoid_: picture
 
 **Series**:
-A **Title** released as a television or streaming show.
+A **Title** released as a television or streaming show. The whole run is one **Title**, including anthologies.
 _Avoid_: TV show, programme
 
 **Stance**:
@@ -21,20 +21,26 @@ The user's recorded position on one **Title**: liked, disliked, or **Ignored**. 
 _Avoid_: rating, review, verdict, status
 
 **Ignored**:
-A **Stance** on a **Title**: set aside without being liked or disliked. The user is not interested in it, and does not claim to know whether they would like it.
+A **Stance** on a **Title**: set aside without being liked or disliked. The user is not interested in it, and does not claim to know whether they would like it. Applies only to a **Title**, never to a kind of thing.
 _Avoid_: not interested, skip, pass, dismissed, hidden, uninterested, unseen
 
 ## Flagged ambiguities
 
 **Title vs name.** The everyday name is how a **Title** is pointed at. Two **Title**s can share a name (two *The Office*s, two *Dune*s). Identity beyond the name is not resolved.
 
-**Ignored vs a kind.** **Ignored** applies only to a **Title**. A kind of thing (superhero, horror, reality TV) is not a **Title** and cannot be **Ignored**.
-
 ## Example dialogue
 
 Dev: They liked *The Apartment*. Is that a **Title** or a **Film**?
 
 Expert: Both. *The Apartment* is a **Title**. It is a **Film**. Every **Title** is one **Film** or one **Series**.
+
+Dev: They liked *True Detective* season 1 and not season 2. Two **Title**s?
+
+Expert: No. *True Detective* is one **Series**, so one **Title**, so one **Stance**. A season is not a **Title**.
+
+Dev: *John Wick* and *John Wick: Chapter 4*?
+
+Expert: Two **Film**s, two **Title**s. A franchise is not one **Title**.
 
 Dev: They haven't seen *The Third Man*. Do they have a **Stance**?
 
