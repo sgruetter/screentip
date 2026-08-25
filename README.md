@@ -55,4 +55,4 @@ Open the repo in your coding agent. Start with `/like`, `/dislike`, `/ignore`, o
 
 ## License
 
-Private taste, public repo. Use the skills; keep your own store.
+[MIT](LICENSE). The skills and repo are public. The taste store on your machine is yours.
