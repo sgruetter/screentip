@@ -28,7 +28,7 @@ _Avoid_: not interested, skip, pass, dismissed, hidden, uninterested, unseen
 
 **Title vs name.** The everyday name is how a **Title** is pointed at. Two **Title**s can share a name (two *The Office*s, two *Dune*s). Identity beyond the name is not resolved.
 
-**Ignored vs a kind.** **Ignored** is defined on a **Title**. Whether the user can set aside a whole kind of thing (superhero, horror, reality TV) is not resolved.
+**Ignored vs a kind.** **Ignored** applies only to a **Title**. A kind of thing (superhero, horror, reality TV) is not a **Title** and cannot be **Ignored**.
 
 ## Example dialogue
 
@@ -46,4 +46,4 @@ Expert: That is **Ignored**. A **Stance**, stated. Not disliked.
 
 Dev: They say they do not do superhero movies.
 
-Expert: That is not a **Stance** on a **Title**. Whether a kind of thing can be set aside is still open.
+Expert: That is not a **Stance**. Superhero is not a **Title**. **Ignored** only applies to a **Title**. A kind of thing can steer a recommendation; it is not recorded as **Ignored**.
