@@ -24,6 +24,10 @@ _Avoid_: rating, review, verdict, status, history
 A **Stance** on a **Title**: set aside without being liked or disliked. The user is not interested in it, and does not claim to know whether they would like it. Applies only to a **Title**, never to a kind of thing.
 _Avoid_: not interested, skip, pass, dismissed, hidden, uninterested, unseen
 
+**Recommendation**:
+An unseen **Title** offered to watch. Never a **Title** that already has a **Stance**.
+_Avoid_: rewatch, watchlist, pick
+
 ## Example dialogue
 
 Dev: They liked *The Apartment*. Is that a **Title** or a **Film**?
@@ -56,4 +60,8 @@ Expert: The new **Stance** is liked. **Ignored** is gone. One **Stance** per **T
 
 Dev: They say they do not do superhero movies.
 
-Expert: That is not a **Stance**. Superhero is not a **Title**. **Ignored** only applies to a **Title**. A kind of thing can steer a recommendation; it is not recorded as **Ignored**.
+Expert: That is not a **Stance**. Superhero is not a **Title**. **Ignored** only applies to a **Title**. A kind of thing can steer a **Recommendation**; it is not recorded as **Ignored**.
+
+Dev: Friday night. *The Apartment* is liked, *Twilight* is **Ignored**, *Cats* is disliked. Can any of those be a **Recommendation**?
+
+Expert: No. A **Recommendation** is only an unseen **Title**. Liked, disliked, and **Ignored** are already judged. A rewatch is not a **Recommendation**.
