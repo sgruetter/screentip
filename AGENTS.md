@@ -30,7 +30,7 @@ Do not hand-edit the file from a skill.
 
 ## Recording a Stance
 
-Follow this for `/like`, `/dislike`, `/ignore`, and for a **Stance** stated on a **Recommendation**.
+Follow this for `/like`, `/dislike`, `/ignore`, and for a **Stance** stated on a **Tip**.
 
 1. Read `CONTEXT.md` if terms are unclear.
 2. Resolve the **Title**: name, year, **Film** or **Series**. Look up omissions. If two **Title**s match, ask which.
@@ -44,9 +44,9 @@ Follow this for `/like`, `/dislike`, `/ignore`, and for a **Stance** stated on a
 | `/like` | liked |
 | `/dislike` | disliked |
 | `/ignore` | **Ignored** |
-| `/recommend` | **Recommendation** (unseen only; a seen pick takes a **Stance** then another rec) |
+| `/tip` | **Tip** (unseen only; a seen pick takes a **Stance** then another **Tip**) |
 
-There is no `/ask` or `/refine`.
+There is no `/ask`, `/refine`, or `/recommend`.
 
 ## Git
 

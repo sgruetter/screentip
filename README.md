@@ -2,7 +2,7 @@
 
 Private taste. Public skills. A straight answer to *what should I watch next?*
 
-Screentip is an agent workspace, not an app. You tell it films and series you like, dislike, or want ignored. It keeps that record in a local text file, then recommends what to watch — optionally steered by genre, mood, or a direction you name.
+Screentip is an agent workspace, not an app. You tell it films and series you like, dislike, or want ignored. It keeps that record in a local text file, then offers a tip for what to watch — optionally steered by genre, mood, or a direction you name.
 
 Your taste never leaves the machine. The file is gitignored and is not part of this repository.
 
@@ -17,7 +17,7 @@ Project skills live in `.agents/skills/`. Invoke them by name:
 | `/like` | Add a film or series you liked |
 | `/dislike` | Add a film or series you watched and didn't like |
 | `/ignore` | Set a film or series aside without judging it |
-| `/recommend` | Get one or more things to watch. Pass a genre, mood, or direction if you have one. If you've already seen a pick, say so and it records that and recommends another |
+| `/tip` | Get one or more things to watch. Pass a genre, mood, or direction if you have one. If you've already seen a pick, say so and it records that and tips another |
 
 Examples:
 
@@ -25,7 +25,7 @@ Examples:
 /like The Apartment (1960)
 /dislike Cats (2019)
 /ignore Twilight (2008)
-/recommend something tense but not bleak, weekday night, about 2 hours
+/tip something tense but not bleak, weekday night, about 2 hours
 ```
 
 ## Layout
@@ -34,7 +34,7 @@ Examples:
 |---|---|
 | `AGENTS.md` | Rules every agent in this repo should follow |
 | `CONTEXT.md` | Domain language |
-| `.agents/skills/` | `/like`, `/dislike`, `/ignore`, `/recommend` |
+| `.agents/skills/` | `/like`, `/dislike`, `/ignore`, `/tip` |
 | `.agents/scripts/taste.py` | Read/write the local taste store |
 | `data/taste.txt` | Local taste store (gitignored) |
 
@@ -51,7 +51,7 @@ git clone git@github.com:sgruetter/screentip.git
 cd screentip
 ```
 
-Open the repo in your coding agent. Start with `/like`, `/dislike`, `/ignore`, or `/recommend`. No account, no database server, no vendor lock-in.
+Open the repo in your coding agent. Start with `/like`, `/dislike`, `/ignore`, or `/tip`. No account, no database server, no vendor lock-in.
 
 ## License
 
