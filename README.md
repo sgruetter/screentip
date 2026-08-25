@@ -1,49 +1,32 @@
 # Screentip
 
-Private taste. Public skills. A straight answer to *what should I watch next?*
+Tell an agent what you like. Ask what to watch next.
 
-Screentip is an agent workspace, not an app. You tell it films and series you like, dislike, or want ignored. It keeps that record in a local text file, then offers a tip for what to watch — optionally steered by genre, mood, or a direction you name.
+No app, no account, no database. Open this folder in a coding agent and type a command. Your list stays on your computer and is never committed.
 
-Your taste never leaves the machine. The file is gitignored and is not part of this repository.
+## Usage
 
-Any coding agent that reads `AGENTS.md` and project skills can run it.
+Type `/tip` when you want something to watch. Say a genre, a mood, or “like this other film” if you have a direction:
 
-## Commands
+![A terminal session: /tip an action movie like Battleship, then a suggestion of Battle: Los Angeles (2011)](docs/example-tip.jpg)
 
-Project skills live in `.agents/skills/`. Invoke them by name:
-
-| Command | Purpose |
-|---|---|
-| `/like` | Add a film or series you liked. Name or description; pick from options if it collides |
-| `/dislike` | Add a film or series you watched and didn't like. Name or description; pick from options if it collides |
-| `/ignore` | Set a film or series aside without judging it |
-| `/tip` | Get one or more things to watch. Pass a genre, mood, or direction if you have one. If you've already seen a pick, say so and it records that and tips another |
-
-Examples:
+The other commands:
 
 ```
-/like The Apartment (1960)
+/like Battleship
 /like the gerard butler submarine movie
-/dislike Cats (2019)
-/ignore Twilight (2008)
-/tip something tense but not bleak, weekday night, about 2 hours
+/dislike Cats
+/ignore Twilight
 ```
 
-## Layout
-
-| Path | Role |
+| You type | What happens |
 |---|---|
-| `AGENTS.md` | Rules every agent in this repo should follow |
-| `CONTEXT.md` | Domain language |
-| `.agents/skills/` | `/like`, `/dislike`, `/ignore`, `/tip` |
-| `.agents/scripts/taste.py` | Read/write the local taste store |
-| `data/taste.txt` | Local taste store (gitignored) |
+| `/like …` | You watched it and liked it. A name or a description is fine. |
+| `/dislike …` | You watched it and didn't. |
+| `/ignore …` | You don't want it suggested. You haven't judged it. |
+| `/tip …` | One thing to watch that isn't already on your list. |
 
-## Taste store
-
-Likes, dislikes, and ignored titles live in `data/taste.txt` on your machine. Clone the repo and that file is yours to fill; it is not committed, not pushed, and not shared.
-
-The repository is the system: skills, language, and how the agent should work. The taste is personal.
+If two films share a name, you get a short list and pick. If a tip is something you've already seen, say liked / disliked / ignored — it records that and tips another.
 
 ## Setup
 
@@ -52,8 +35,12 @@ git clone git@github.com:sgruetter/screentip.git
 cd screentip
 ```
 
-Open the repo in your coding agent. Start with `/like`, `/dislike`, `/ignore`, or `/tip`. No account, no database server, no vendor lock-in.
+Open the folder in your coding agent. Start with `/like` on a few things you actually watched, then `/tip`.
+
+## Privacy
+
+Your list is `data/taste.txt` on this machine. Git ignores it. The repo is the how-to; the list is yours.
 
 ## License
 
-[MIT](LICENSE). The skills and repo are public. The taste store on your machine is yours.
+[MIT](LICENSE).
