@@ -6,9 +6,11 @@ Screentip is an agent workspace, not an app. You tell it films and series you li
 
 Your taste never leaves the machine. The file is gitignored and is not part of this repository.
 
+Any coding agent that reads `AGENTS.md` and project skills can run it.
+
 ## Commands
 
-Open this repo in [Grok](https://x.ai) and use the project skills:
+Project skills live in `.agents/skills/`. Invoke them by name:
 
 | Command | Purpose |
 |---|---|
@@ -26,6 +28,14 @@ Examples:
 /recommend something tense but not bleak, weekday night, about 2 hours
 ```
 
+## Layout
+
+| Path | Role |
+|---|---|
+| `AGENTS.md` | Rules every agent in this repo should follow |
+| `.agents/skills/` | `/like`, `/dislike`, `/ask`, `/recommend` |
+| `data/taste.txt` | Local taste store (gitignored) |
+
 ## Taste store
 
 Likes and dislikes live in `data/taste.txt` on your machine. Clone the repo and that file is yours to fill; it is not committed, not pushed, and not shared.
@@ -37,10 +47,9 @@ The repository is the system: skills, language, and how the agent should work. T
 ```bash
 git clone git@github.com:sgruetter/screentip.git
 cd screentip
-grok
 ```
 
-Then start with `/like`, `/dislike`, or `/ask`. No account, no database server, no extra install beyond Grok.
+Open the repo in your coding agent. Start with `/like`, `/dislike`, or `/ask`. No account, no database server, no vendor lock-in.
 
 ## License
 

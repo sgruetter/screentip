@@ -1,6 +1,6 @@
 # Screentip
 
-Personal tracker for films and series the user likes or dislikes. Domain language lives in `CONTEXT.md`. Project skills live in `.grok/skills/`.
+Personal tracker for films and series the user likes or dislikes. Domain language lives in `CONTEXT.md`. Project skills live in `.agents/skills/`. Do not put skills under a vendor path (`.grok/`, `.claude/`, `.cursor/`).
 
 ## Taste store
 
