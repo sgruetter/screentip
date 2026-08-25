@@ -1,0 +1,4 @@
+# Local taste store — never commit
+data/*.txt
+
+.DS_Store
