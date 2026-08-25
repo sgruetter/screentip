@@ -14,8 +14,8 @@ Project skills live in `.agents/skills/`. Invoke them by name:
 
 | Command | Purpose |
 |---|---|
-| `/like` | Add a film or series you liked |
-| `/dislike` | Add a film or series you watched and didn't like |
+| `/like` | Add a film or series you liked. Name or description; pick from options if it collides |
+| `/dislike` | Add a film or series you watched and didn't like. Name or description; pick from options if it collides |
 | `/ignore` | Set a film or series aside without judging it |
 | `/tip` | Get one or more things to watch. Pass a genre, mood, or direction if you have one. If you've already seen a pick, say so and it records that and tips another |
 
@@ -23,6 +23,7 @@ Examples:
 
 ```
 /like The Apartment (1960)
+/like the gerard butler submarine movie
 /dislike Cats (2019)
 /ignore Twilight (2008)
 /tip something tense but not bleak, weekday night, about 2 hours

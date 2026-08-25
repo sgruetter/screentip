@@ -33,7 +33,11 @@ Do not hand-edit the file from a skill.
 Follow this for `/like`, `/dislike`, `/ignore`, and for a **Stance** stated on a **Tip**.
 
 1. Read `CONTEXT.md` if terms are unclear.
-2. Resolve the **Title**: name, year, **Film** or **Series**. Look up omissions. If two **Title**s match, ask which.
+2. Resolve the **Title**. Input may be a name, a year, a description, or a mix.
+   - Look it up. Search when the name is missing, partial, descriptive, or could collide.
+   - Identity is name + year + **Film** or **Series**.
+   - If one **Title** is clearly meant, use it.
+   - If it is still ambiguous after research, or two **Title**s share a name: do not record. Offer numbered options. Each option is name, year, **Film** or **Series**, and one distinguishing fact (cast, premise, origin). Wait for a pick. Do not guess.
 3. `liked` and `disliked` mean seen and judged. **Ignored** means set aside without that judgment. If the user used the wrong skill, say so and record the **Stance** they actually meant — do not guess in silence.
 4. Run `set` as above. Tell them the **Stance**, and whether it replaced one.
 
