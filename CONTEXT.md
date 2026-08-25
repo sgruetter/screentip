@@ -28,6 +28,10 @@ _Avoid_: not interested, skip, pass, dismissed, hidden, uninterested, unseen
 An unseen **Title** offered to watch. Never a **Title** that already has a **Stance**.
 _Avoid_: rewatch, watchlist, pick
 
+## Flagged ambiguities
+
+**Quiz vs Recommendation.** A **Recommendation** is an unseen **Title** to watch. A quiz would pick a **Title** the user might already have seen, to elicit a **Stance**. Those two pick in opposite directions. Whether they are one activity or two is not resolved.
+
 ## Example dialogue
 
 Dev: They liked *The Apartment*. Is that a **Title** or a **Film**?
