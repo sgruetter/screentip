@@ -5,7 +5,7 @@ Personal taste over films and series: which **Title**s are liked, disliked, or *
 ## Language
 
 **Title**:
-A complete **Film** or a complete **Series**, identified by name and year. It is the thing liked, disliked, **Ignored**, asked about, or recommended. A season or episode is not a **Title**. When name and year match, **Film** vs **Series** distinguishes them.
+A complete **Film** or a complete **Series**, identified by name and year. It is the thing liked, disliked, **Ignored**, or offered as a **Recommendation**. A season or episode is not a **Title**. When name and year match, **Film** vs **Series** distinguishes them.
 _Avoid_: watchable, work, entry, item, season, episode
 
 **Film**:
@@ -25,12 +25,8 @@ A **Stance** on a **Title**: set aside without being liked or disliked. The user
 _Avoid_: not interested, skip, pass, dismissed, hidden, uninterested, unseen
 
 **Recommendation**:
-An unseen **Title** offered to watch. Never a **Title** that already has a **Stance**.
-_Avoid_: rewatch, watchlist, pick
-
-## Flagged ambiguities
-
-**Quiz vs Recommendation.** A **Recommendation** is an unseen **Title** to watch. A quiz would pick a **Title** the user might already have seen, to elicit a **Stance**. Those two pick in opposite directions. Whether they are one activity or two is not resolved.
+One or more unseen **Titles** offered to watch, optionally steered by a kind, genre, or mood. Never a **Title** that already has a **Stance**; if the user has already seen it, they state a **Stance** and another **Recommendation** follows.
+_Avoid_: rewatch, watchlist, pick, quiz, ask, refine
 
 ## Example dialogue
 
@@ -69,3 +65,7 @@ Expert: That is not a **Stance**. Superhero is not a **Title**. **Ignored** only
 Dev: Friday night. *The Apartment* is liked, *Twilight* is **Ignored**, *Cats* is disliked. Can any of those be a **Recommendation**?
 
 Expert: No. A **Recommendation** is only an unseen **Title**. Liked, disliked, and **Ignored** are already judged. A rewatch is not a **Recommendation**.
+
+Dev: A **Recommendation** names a **Title** they already saw.
+
+Expert: They state a **Stance**. Then another **Recommendation**. That is not a quiz. There is no quiz.
