@@ -33,6 +33,7 @@ Examples:
 | Path | Role |
 |---|---|
 | `AGENTS.md` | Rules every agent in this repo should follow |
+| `CONTEXT.md` | Domain language |
 | `.agents/skills/` | `/like`, `/dislike`, `/ask`, `/recommend` |
 | `data/taste.txt` | Local taste store (gitignored) |
 
