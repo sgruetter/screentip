@@ -8,7 +8,7 @@ No app, no account, no database. Open this folder in a coding agent and type a c
 
 Type `/tip` when you want something to watch. Say a genre, a mood, or “like this other film” if you have a direction:
 
-![A terminal session: /tip an action movie like Battleship, then a suggestion of Battle: Los Angeles (2011)](docs/example-tip.jpg)
+![A terminal session: /tip an action movie like Battleship, then a suggestion of Battle: Los Angeles (2011)](docs/example-tip.png)
 
 The other commands:
 
