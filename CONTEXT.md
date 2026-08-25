@@ -5,7 +5,7 @@ Personal taste over films and series: which **Title**s are liked, disliked, or *
 ## Language
 
 **Title**:
-A complete **Film** or a complete **Series**, identified by name. It is the thing liked, disliked, **Ignored**, asked about, or recommended. A season or episode is not a **Title**.
+A complete **Film** or a complete **Series**, identified by name and year. It is the thing liked, disliked, **Ignored**, asked about, or recommended. A season or episode is not a **Title**. When name and year match, **Film** vs **Series** distinguishes them.
 _Avoid_: watchable, work, entry, item, season, episode
 
 **Film**:
@@ -24,10 +24,6 @@ _Avoid_: rating, review, verdict, status
 A **Stance** on a **Title**: set aside without being liked or disliked. The user is not interested in it, and does not claim to know whether they would like it. Applies only to a **Title**, never to a kind of thing.
 _Avoid_: not interested, skip, pass, dismissed, hidden, uninterested, unseen
 
-## Flagged ambiguities
-
-**Title vs name.** The everyday name is how a **Title** is pointed at. Two **Title**s can share a name (two *The Office*s, two *Dune*s). Identity beyond the name is not resolved.
-
 ## Example dialogue
 
 Dev: They liked *The Apartment*. Is that a **Title** or a **Film**?
@@ -41,6 +37,10 @@ Expert: No. *True Detective* is one **Series**, so one **Title**, so one **Stanc
 Dev: *John Wick* and *John Wick: Chapter 4*?
 
 Expert: Two **Film**s, two **Title**s. A franchise is not one **Title**.
+
+Dev: Two *Dune*s. Two *The Office*s. Same name?
+
+Expert: Different years, so different **Title**s. Name and year identify them. If name and year still match, **Film** vs **Series** does.
 
 Dev: They haven't seen *The Third Man*. Do they have a **Stance**?
 
