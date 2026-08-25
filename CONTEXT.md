@@ -17,7 +17,7 @@ A **Title** released as a television or streaming show. The whole run is one **T
 _Avoid_: TV show, programme
 
 **Stance**:
-The user's recorded position on one **Title**: liked, disliked, or **Ignored**. Stated, never inferred. One per **Title**: a later statement replaces the earlier. A **Title** with no **Stance** is unseen.
+The user's recorded position on one **Title**: liked, disliked, or **Ignored**. Stated by naming a **Title**, or as a reply to a **Recommendation**. Never inferred. One per **Title**: a later statement replaces the earlier. A **Title** with no **Stance** is unseen.
 _Avoid_: rating, review, verdict, status, history
 
 **Ignored**:
@@ -50,9 +50,9 @@ Dev: They haven't seen *The Third Man*. Do they have a **Stance**?
 
 Expert: No. Unseen is the absence of a **Stance**. They did not state one, so nothing is recorded.
 
-Dev: They say they are not interested in *Twilight*, but they have not watched it, so they do not dislike it.
+Dev: They name *Twilight* and say they are not interested; they have not watched it, so they do not dislike it.
 
-Expert: That is **Ignored**. A **Stance**, stated. Not disliked.
+Expert: That is **Ignored**, stated by naming a **Title**. Not disliked. Not only a reply to a **Recommendation**.
 
 Dev: They later watch *Twilight* and like it.
 
